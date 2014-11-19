@@ -2,6 +2,8 @@ function y=env(y);
 % output envelope
 
 % Courtesy Emily Brodsky
+% uses hilbert function. tracks the power of the signal. 
+% has phase information, preserves frequency information.
 
 i=sqrt(-1);
 
